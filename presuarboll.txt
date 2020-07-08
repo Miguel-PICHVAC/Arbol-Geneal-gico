@@ -1,0 +1,112 @@
+INICIO
+
+VAR: op:ENTERO
+
+Hacer{
+	imprimir"Generaciones"
+	imprimir"1.-1ra Generacion"
+	imprimir"2.-2da Generacion:"
+	imprimir"3.-3ra Generacion:"
+	imprimir"4.-4ta Generacion:"
+	imprimir"5.-5ta Generacion:"
+	imprimir"6.-6ta Generacion:"
+	imprimir"7- Imprimir el arbol completo"
+	imprimir"Elegine una generacion (1-7): "
+	Leer op
+
+	si(op <=0 OR op >=8)
+	{
+		Imprimir"Opción incorrecta"
+	}
+	}mientras(op <=0 OR op >=8)
+
+Casos para op
+
+caso 1:
+Imprimir" ______________   ______________   ______________   ______________   ______________   ______________    ______________   _____________"
+Imprimir"|              | |              | |              | |              | |              | |              |  |              | |             |"
+Imprimir"| *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido |  | *Desconocido | | Desconocido |"
+Imprimir"|______________| |______________| |______________| |______________| |______________| |______________|  |______________| |_____________|"
+Imprimir"|              | |              | |              | |              | |              | |              |  |              | |             |"
+Imprimir"| *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido |  | *Desconocido | | Desconocido |"
+Imprimir"|______________| |______________| |______________| |______________| |______________| |______________|  |______________| |_____________|"
+	fin_del_caso
+caso 2:
+Imprimir" _____________   _____________   |  ______________   ______________  |  ______________   ______________  |  ______________   ______________  |"
+Imprimir"|             | |             |  | |              | |              | | |              | |              | | |              | |              | |"
+Imprimir"| Desconicido | | Desconocido |  | | *Desconocido | | *Desconocido | | | *Desconocido | | *Desconocido | | | *Desconocido | | *Desconocido | |"
+Imprimir"|_____________| |_____________|  | |______________| |______________| | |______________| |______________| | |______________| |______________| |"
+	fin_del_caso
+caso 3:
+mprimir"        _____|____     _______|______      ______|____    _____|___    _______|______    _______|______   _______|______    _______|______"
+Imprimir"       |          |   |              |    |           |  |         |  |              |  |              | |              |  |              |"
+Imprimir"       | *Librada |   | *Desconocido |    | *Tiburcio |  | *Ursula |  | *Desconocido |  | *Desconocido | | *Desconocido |  | *Desconocido |"
+Imprimir"       |__________|   |______________|    |___________|  |_________|  |______________|  |______________| |______________|  |______________|"
+	fin_del_caso
+caso 4:
+Imprimir"             ________|_____                    ________|_____                  ________|________            _____________|_____"
+Imprimir"            |              |                  |              |                |                 |          |                   |"
+Imprimir"	    | *Erasto Vaca |                  | *Maria lopez |                | *Celia Dorantes |          | *Cerafin Pichardo |"
+Imprimir"            |______________|                  |______________|                |_________________|          |___________________|"
+	fin_del_caso
+caso 5:
+Imprimir"		    ________________|________________                    	         _____________|__________"
+Imprimir"		   |                                 |                 			|                        |"
+Imprimir"		   | *Maria Luisa    *Marco Antonio  |                  		| *Marta      *Magos     |"
+Imprimir"	           | *Ernesto        *Javier         |                                  | *Miguel     *Maricela  |"
+Imprimir"	           | *Benito         *Gabriel        |                                  |________________________|"
+Imprimir"	           | *Laura          *Cristina       |			     		     |"
+Imprimir"	           |_________________________________|                                       |"
+	fin_del_caso
+caso 6:
+Imprimir"	                   		       ______________|________________"
+Imprimir"	             			      |                               |"
+Imprimir"        	    		     	      | *Laura    *Karla     *Miguel  |"
+Imprimir"	                	              |_______________________________|"
+
+	fin_del_caso
+caso 7:
+Imprimir" ______________   ______________   ______________   ______________   ______________   ______________    ______________   _____________"
+Imprimir"|              | |              | |              | |              | |              | |              |  |              | |             |"
+Imprimir"| *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido | | *Desconocido |  | *Desconocido | | Desconocido |"
+Imprimir"|______________| |______________| |______________| |______________| |______________| |______________|  |______________| |_____________|"
+Imprimir"        |_________________|              |_________________|              |_________________|                 |_________________|"
+Imprimir"              |___________________                   |_______________                 |__________________                 |__________________"
+Imprimir" _____________   _____________   |  ______________   ______________  |  ______________   ______________  |  ______________   ______________  |"
+Imprimir"|             | |             |  | |              | |              | | |              | |              | | |              | |              | |"
+Imprimir"| Desconicido | | Desconocido |  | | *Desconocido | | *Desconocido | | | *Desconocido | | *Desconocido | | | *Desconocido | | *Desconocido | |"
+Imprimir"|_____________| |_____________|  | |______________| |______________| | |______________| |______________| | |______________| |______________| |"
+Imprimir"      |_________________|      __|        |_________________|  ______|        |_______________|     _____|        |________________|         |"
+Imprimir"             |                |                  |             |               _________|        ___|             ___________|               |"
+Imprimir"             |                |                  |             |              |                 |                |                  _________|"
+Imprimir"        _____|____     _______|______      ______|____    _____|___    _______|______    _______|______   _______|______    _______|______"
+Imprimir"       |          |   |              |    |           |  |         |  |              |  |              | |              |  |              |"
+Imprimir"       | *Librada |   | *Desconocido |    | *Tiburcio |  | *Ursula |  | *Desconocido |  | *Desconocido | | *Desconocido |  | *Desconocido |"
+Imprimir"       |__________|   |______________|    |___________|  |_________|  |______________|  |______________| |______________|  |______________|"
+Imprimir"             |________________|                 |_____________|              |__________________|               |__________________|"
+Imprimir"             ________|_____                    ________|_____                  ________|________            _____________|_____"
+Imprimir"            |              |                  |              |                |                 |          |                   |"
+Imprimir"	    | *Erasto Vaca |                  | *Maria lopez |                | *Celia Dorantes |          | *Cerafin Pichardo |"
+Imprimir"            |______________|                  |______________|                |_________________|          |___________________|"
+Imprimir"	            |                                |                                 |                             |"
+Imprimir"	            |________________________________|                                 |_____________________________|"
+Imprimir"	                            |                                                 		      |"
+Imprimir"		    ________________|________________                    	         _____________|__________"
+Imprimir"		   |                                 |                 			|                        |"
+Imprimir"		   | *Maria Luisa    *Marco Antonio  |                  		| *Marta      *Magos     |"
+Imprimir"	           | *Ernesto        *Javier         |                                  | *Miguel     *Maricela  |"
+Imprimir"	           | *Benito         *Gabriel        |                                  |________________________|"
+Imprimir"	           | *Laura          *Cristina       |			     		     |"
+Imprimir"	           |_________________________________|                                       |"
+Imprimir"	                |                                                                    |"
+Imprimir"	                |                                                 		     |"
+Imprimir"	                |____________________________________________________________________|"
+Imprimir"	                                                     |"
+Imprimir"	                   		       ______________|________________"
+Imprimir"	             			      |                               |"
+Imprimir"        	    		     	      | *Laura    *Karla     *Miguel  |"
+Imprimir"	                	              |_______________________________|"
+
+fin_del_caso
+
+FIN
